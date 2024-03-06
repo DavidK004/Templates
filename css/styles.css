@@ -246,3 +246,102 @@ body{
     margin-top: 25px;
     margin-left: 20px;
 }
+.recent-work{
+    background-color: var(--bg-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.recent-work h1{
+    font-size: 44px;
+}
+.recent-work .article-description{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articles img{
+    height: 200px;
+    width: 445px;
+    margin-bottom: 40px;
+}
+.article{
+    max-width: 445px;
+    margin-right: 50px;
+}
+.article h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.know-button{
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px var(--btn-border-color);
+    background-color: var(--btn-bg-color);
+    padding: 10px 40px;
+    color: var(--btn-color);
+    filter: drop-shadow(0px 0px 10px var(--btn-border-color));
+    border-radius: 4px;
+    display: block;
+    max-width: 200px;
+    margin-top: 20px;
+}
+.know-button:hover{
+    background-color: var(--btn-border-color); 
+}
+.form{
+    background-color: var(--alt-bg-color);
+    color: var(--alt-h-color);
+    padding-top: 80px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+label,input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-description{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.form-description h1{
+    font-size: 44px;
+}
+
+input{
+    height: 40px;
+    width: 350px;
+}
+textarea{
+    width: 350px;
+}
+.submit{
+    background-color: var(--btn-bg-color);
+    border: 1px solid var(--btn-border-color);
+    margin-top: 20px;
+    color: var(--alt-h-color);
+    filter: drop-shadow(0px 0px 10px var(--btn-border-color));
+}
+.submit:hover{
+    background-color: var(--btn-border-color);
+}
+footer{
+    display: flex;
+    align-items: center;
+    background-color: var(--header-footer-bg);
+    height: 70px;
+}
+.foot{
+    color: var(--alt-h-color);
+    text-align: center;
+}
