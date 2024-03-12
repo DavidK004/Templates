@@ -1,0 +1,21 @@
+:root{
+    --h-font-family: "Plus Jakarta Sans", sans-serif;
+    --header-font-family: "Outfit", sans-serif;
+    --common-font-family: "Inter", sans-serif;
+    --special-font-family: "Poppins", sans-serif;
+
+    --text-color: #1E2B33;
+    --alt-text-color: #ffffff;
+   
+   
+
+    --bg-color: #cad7ed;
+    --alt-bg-color: #ebeff6;
+
+    --accent1: #a4074d;
+    --accent2: #1a2434;
+}
+
+*{
+    box-sizing: border-box;
+}
